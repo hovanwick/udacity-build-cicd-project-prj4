@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - develop
     paths:
       # This will only run on changes to the backend code
       - "starter/backend/**"
